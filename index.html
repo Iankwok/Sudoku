@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sudoku Game</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <title>Sudoku Game</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <h1 class="h1">Sexy Sudoku</h1>
@@ -34,147 +34,148 @@
         <button type="button" class="btn btn-danger btn-lg" id="hard">Hard</button>
       </section>
     </div>
-    <div id="menu1" class="tab-pane fade in">
-      <section class = "container well">
-        <table>
-          <thead>
-            <tr id="row-1">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-             <tr id="row-2">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-             <tr id="row-3">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr id="row-4">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-            <tr id="row-5">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-            <tr id="row-6">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr id="row-7">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-            <tr id="row-8">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-            <tr id="row-9">
-              <td data-num="1"></td>
-              <td data-num="2"></td>
-              <td data-num="3"></td>
-              <td data-num="4"></td>
-              <td data-num="5"></td>
-              <td data-num="6"></td>
-              <td data-num="7"></td>
-              <td data-num="8"></td>
-              <td data-num="9"></td>
-            </tr>
-          </tfoot>
-        </table>
-        <button type="button" class="btn btn-success btn-lg" id="solution">Solution</button>
-        <label class = "timer"> Timer : <span id="time-increase">0</span> seconds</label>
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 class="modal-title text-danger">Wrong Answer! 10 secs added!</h2>
-              </div>
+  <div id="menu1" class="tab-pane fade in">
+    <section class = "container well">
+      <table>
+        <thead>
+          <tr id="row-1">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+           <tr id="row-2">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+           <tr id="row-3">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="row-4">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+          <tr id="row-5">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+          <tr id="row-6">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr id="row-7">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+          <tr id="row-8">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+          <tr id="row-9">
+            <td data-num="1"></td>
+            <td data-num="2"></td>
+            <td data-num="3"></td>
+            <td data-num="4"></td>
+            <td data-num="5"></td>
+            <td data-num="6"></td>
+            <td data-num="7"></td>
+            <td data-num="8"></td>
+            <td data-num="9"></td>
+          </tr>
+        </tfoot>
+      </table>
+      <button type="button" class="btn btn-success btn-lg" id="solution">Solution</button>
+      <label class = "timer"> Timer : <span id="time-increase">0</span> seconds</label>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title text-danger">Wrong Answer! 10 secs added!</h2>
             </div>
           </div>
         </div>
-        <div class="modal fade" id="myModalwin" role="dialog">
+      </div>
+      <div class="modal fade" id="myModalwin" role="dialog">
           <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 class="modal-title text-success"> Well done! You have completed the game in <span id="timeWin">0</span> seconds</h2>
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h2 class="modal-title text-success"> Well done! You have completed the game in <span id="timeWin">0</span> seconds</h2>
+                  </div>
+                  <div class="modal-body">
+                      <img src="pikachu.png" width="200" height="200" align="middle">
+                  </div>
               </div>
-              <div class="modal-body">
-                <img src="pikachu.png" width="200" height="200" align="middle">
-              </div>
-            </div>
           </div>
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   </div>
-  <script src="buzz.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <script src="js/board.js"></script>
-  <script src="js/app.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </div>
+    <script src="buzz.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
+
 </html>
